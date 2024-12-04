@@ -13,11 +13,11 @@ const ArrayMap = () => {
   ]
 
     return (
-    <div className="flex">
+    <div className="md:flex">
 {
 Cars.map((Vehicle) =>{
     return(
- <div className="border rounded-lg h-64 w-1/1 md:w-1/2 lg:w-1/4 bg-slate-200 my-2 mx-2 text-center ">
+ <div className="border rounded-lg h-64 w-1/1 md:w-1/2 lg:w-1/4 lg:h-72 bg-slate-200 my-2 mx-2 text-center ">
   <div className="w-full mt-4 px-2 h-36 object-center  ">            {Vehicle.Img}               </div>
   <div>
   <h3 className="text-2xl font-bold">  {Vehicle.CarName}         </h3>
